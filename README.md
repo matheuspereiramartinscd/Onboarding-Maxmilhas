@@ -44,6 +44,7 @@ Tela Inicial
 ![onboarding02](https://github.com/user-attachments/assets/a961c633-0d92-4a00-8ef8-ce6132d4a726)
 
 Tela de Cursos
+![WhatsApp Image 2024-11-13 at 20 55 35](https://github.com/user-attachments/assets/477f22ae-7fb5-4bdb-b2ee-1965b39d6201)
 
 Ranking de Pontuação
 ![onboarding03](https://github.com/user-attachments/assets/e6f75744-023d-4b22-80eb-115ced097263)
