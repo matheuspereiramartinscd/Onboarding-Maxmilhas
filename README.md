@@ -35,6 +35,6 @@ Este projeto visa otimizar a gestão de processos jurídicos em escritórios de 
 - **Stripe/PagSeguro**: Integração para pagamentos de honorários e taxas judiciais.
 - **SendGrid**: Envio de e-mails automáticos para notificações e alertas.
 
-Protótipo criado no Figma
+### Protótipo criado no Figma
 
 ![sapj](https://github.com/user-attachments/assets/84030252-f965-439a-9dd5-8cb732e8aa30)
