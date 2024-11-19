@@ -1,40 +1,57 @@
+# Plataforma de Cursos Web - Sistema de Onboarding
 
-
-# (Em construção..) Sistema de Automação de Processos Jurídicos com IA
-
-Este projeto visa otimizar a gestão de processos jurídicos em escritórios de advocacia, utilizando inteligência artificial (IA) para automação de tarefas repetitivas, como a criação de documentos e análise de jurisprudência. O sistema permite que advogados e assistentes acompanhem casos, monitorem prazos processuais e integrem com sistemas de pagamento, garantindo maior eficiência e agilidade no ambiente jurídico. A aplicação está hospedada na AWS/Heroku e utiliza uma arquitetura robusta para frontend e backend.
+Este projeto é uma plataforma de cursos online voltada para a área de emissões da MaxMilhas, onde os usuários podem acessar cursos divididos em aulas com videoaulas e conteúdo de texto. Com autenticação via Google Sign-In para emails corporativos e um sistema de pontuação gamificado, o projeto visa engajar os usuários na conclusão de cursos. A aplicação está hospedada no Render e possui uma estrutura completa de frontend e backend.
 
 ## Funcionalidades
 
-- **Gestão de Casos Jurídicos**: Criação e acompanhamento de processos, com histórico completo de movimentações processuais.
-- **Automação de Documentos**: Geração automática de documentos jurídicos (contratos, petições) com base nas informações dos casos.
-- **IA para Análise de Jurisprudência**: Consultas automáticas a uma base de jurisprudência e sugestões de ações com base em precedentes jurídicos.
-- **Gestão de Tarefas e Prazos**: Notificação e acompanhamento de prazos processuais com alertas automáticos para vencimento de prazos.
-- **Integração com API de Pagamento**: Processamento de pagamentos de honorários e taxas judiciais por meio de gateways de pagamento como Stripe ou PagSeguro.
-- **Armazenamento de Documentos**: Armazenamento seguro e pesquisa eficiente de documentos jurídicos.
-- **Dashboard de Métricas e Relatórios**: Exibição de estatísticas e relatórios sobre a performance dos casos e da equipe jurídica.
+- Autenticação Segura: Login via Google Sign-In, restrito a emails corporativos.
+- Cursos e Aulas: Organização em aulas com conteúdo de vídeo e texto para cada curso.
+- Sistema de Pontuação: Usuários ganham 50 pontos por aula completada e entre 1600 a 2000 pontos por desempenho acima de 50% nos quizzes.
+- Quizzes Desbloqueáveis: Disponíveis apenas após a conclusão de todas as aulas de um curso.
+- Páginas de Suporte: Inclui FAQ e Links Úteis para ajudar o usuário.
+- Perfil Personalizável: Permite ao usuário editar seu nome e foto.
+- Responsividade: Design adaptado para dispositivos móveis e desktops.
 
 ## Tecnologias Utilizadas
 
-### Backend
-- **Django**: Framework Python para desenvolvimento rápido e escalável de APIs.
-- **Django Rest Framework (DRF)**: Framework para criação de APIs RESTful.
-- **PostgreSQL**: Banco de dados relacional para armazenar informações de casos e usuários.
-- **Redis**: Sistema de cache para melhorar a performance da aplicação.
-- **JWT e OAuth2**: Gerenciamento de autenticação e autorização para garantir segurança nas requisições.
-
 ### Frontend
-- **React.js**: Biblioteca JavaScript para criação de interfaces de usuário dinâmicas.
-- **Material-UI**: Biblioteca de componentes com Material Design para um design consistente.
-- **Axios**: Biblioteca para realização de chamadas HTTP e comunicação com o backend.
-- **React Router**: Biblioteca de roteamento para navegação dinâmica dentro da aplicação.
+- React: Biblioteca JavaScript para criação de interfaces de usuário (versão 18.3.1).
+- @mui/material: Biblioteca de componentes com Material Design (versão 6.1.1).
+- Bootstrap: Framework de CSS para layout e responsividade (versão 5.3.3).
+- Axios: Biblioteca para chamadas HTTP (versão 1.7.7).
+- @react-oauth/google: Integração para login com Google OAuth (versão 0.12.1).
+- Font Awesome: Ícones para interface (versão 6.6.0).
+
+### Backend
+- Node.js: Plataforma para execução de JavaScript no servidor.
+- Express: Framework para APIs RESTful (versão 4.21.0).
+- Mongoose: ODM para MongoDB (versão 8.6.3).
+- Multer: Middleware para upload de arquivos (versão 1.4.5-lts.1).
+- jsonwebtoken e express-jwt: Gerenciamento de autenticação com JSON Web Tokens (JWT) para segurança das requisições.
 
 ### Outras Bibliotecas
-- **SpaCy**: Biblioteca de NLP (Natural Language Processing) para análise de jurisprudência.
-- **Hugging Face**: Modelos pré-treinados de IA para análise de dados jurídicos.
-- **Stripe/PagSeguro**: Integração para pagamentos de honorários e taxas judiciais.
-- **SendGrid**: Envio de e-mails automáticos para notificações e alertas.
+- @emotion/react e @emotion/styled: Para estilos CSS (versões 11.13.3 e 11.13.0).
+- dotenv: Gerenciamento de variáveis de ambiente (versão 16.4.5).
+- emailjs-com: Envio de emails diretamente do cliente (versão 3.2.0).
+- bcrypt e bcryptjs: Hashing de senhas para segurança (versões 5.1.1 e 2.4.3).
+- react-icons: Biblioteca de ícones para React (versão 5.3.0).
+- react-router-dom: Roteamento para navegação dinâmica (versão 6.26.2).
 
-### Protótipo criado no Figma
+Tela de Login
+![onboarding01](https://github.com/user-attachments/assets/aaa1d5a1-6aff-45b1-9d4b-23ea9864aaae)
 
-![sapj](https://github.com/user-attachments/assets/84030252-f965-439a-9dd5-8cb732e8aa30)
+Tela Inicial
+![onboarding02](https://github.com/user-attachments/assets/a961c633-0d92-4a00-8ef8-ce6132d4a726)
+
+Tela de Cursos
+![WhatsApp Image 2024-11-13 at 20 55 35](https://github.com/user-attachments/assets/477f22ae-7fb5-4bdb-b2ee-1965b39d6201)
+
+Ranking de Pontuação
+![onboarding03](https://github.com/user-attachments/assets/e6f75744-023d-4b22-80eb-115ced097263)
+
+Página de Edição de Perfil
+
+![onboarding04](https://github.com/user-attachments/assets/4052ff3e-cdf8-4700-9dac-74a9dd11083b)
+
+Código-fonte
+![Screenshot_2](https://github.com/user-attachments/assets/d1ff1c78-bb40-47b9-aa1a-07aa495bf7f4)
