@@ -1,6 +1,6 @@
 
 
-# (Em construção..) Sistema de Automação de Processos Jurídicos com IA para a Freelaw
+# (Em construção..) Sistema de Automação de Processos Jurídicos com IA
 
 Este projeto visa otimizar a gestão de processos jurídicos em escritórios de advocacia, utilizando inteligência artificial (IA) para automação de tarefas repetitivas, como a criação de documentos e análise de jurisprudência. O sistema permite que advogados e assistentes acompanhem casos, monitorem prazos processuais e integrem com sistemas de pagamento, garantindo maior eficiência e agilidade no ambiente jurídico. A aplicação está hospedada na AWS/Heroku e utiliza uma arquitetura robusta para frontend e backend.
 
