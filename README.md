@@ -1,4 +1,4 @@
-# Plataforma de Cursos Web - Sistema de Onboarding
+# Onboarding Maxmilhas
 
 Este projeto é uma plataforma de cursos online voltada para a área de emissões da MaxMilhas, onde os usuários podem acessar cursos divididos em aulas com videoaulas e conteúdo de texto. Com autenticação via Google Sign-In para emails corporativos e um sistema de pontuação gamificado, o projeto visa engajar os usuários na conclusão de cursos. A aplicação está hospedada no Render e possui uma estrutura completa de frontend e backend.
 
