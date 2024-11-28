@@ -46,6 +46,22 @@ Tela Inicial
 Tela de Cursos
 ![WhatsApp Image 2024-11-13 at 20 55 35](https://github.com/user-attachments/assets/477f22ae-7fb5-4bdb-b2ee-1965b39d6201)
 
+Tela de Quiz
+![Screenshot_1](https://github.com/user-attachments/assets/88509666-366a-4e40-891a-ae388ba5be63)
+
+Tela de Quiz: Perguntas 
+
+![Screenshot_2](https://github.com/user-attachments/assets/e8279946-86fc-4471-a88e-a08d50c8edcc)
+
+Tela de Quiz: Score
+
+![Screenshot_3](https://github.com/user-attachments/assets/171ababa-8090-4f7e-89a0-b976d653ebcb)
+
+Tela de Quiz: Comentários
+
+![Screenshot_5](https://github.com/user-attachments/assets/820080b7-ded0-42eb-aa4a-af0f61d59f01)
+
+
 Ranking de Pontuação
 ![onboarding03](https://github.com/user-attachments/assets/e6f75744-023d-4b22-80eb-115ced097263)
 
